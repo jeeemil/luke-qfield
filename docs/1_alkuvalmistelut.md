@@ -5,8 +5,7 @@
 
 Lataa GeoPackage-tiedosto: 
 
-- [QGIS-projekti](https://drive.google.com/file/d/1X60nPkYzK7NCFw8Bfq_cCwHwdfYa0UkG/view?usp=drive_link) 
-- [QField-PoC (testiversio 1.0)]()
+- [QGIS-projekti (testiversio 1.0)](https://drive.google.com/file/d/1X60nPkYzK7NCFw8Bfq_cCwHwdfYa0UkG/view?usp=drive_link) 
 
 ## Projektin avaaminen
 
@@ -15,7 +14,7 @@ Edellä ladattu GeoPackage-tiedosto sisältää QGIS-projektin, sekä kaikki tar
 [<img src="img/gpkg_drag_and_drop.png" width="500" />](img/gpkg_drag_and_drop.png)
 
 ## Lisäosan asentaminen
-Asenna QGISin lisäosan "QField Sync", jos et ole sitä aiemmin tehnyt. Ohjeet QGIS-lisäosien asentamiseen alla olevassa videossa:
+Asenna QGISin lisäosan "QField Sync", jos et ole sitä aiemmin tehnyt. Yleiset ohjeet tähän on annettu alla olevassa videossa:
 
 ![QField Sync lisäosan asentaminen](img/asenna_qfield_lisaosa.gif)
 
@@ -25,7 +24,7 @@ Tässä kuvassa näet miltä projekti, johon on lisätty hieman esimerkinomaista
 
 **Tasot**-näkymässä näet, tasoja ryhmiteltynä teemoittain.
 
-Kokeet ja toimenpiteet -ryhmän alla on seuraavat taulukko-muotoiset tasot:
+Kokeet ja toimenpiteet -ryhmän alla on seuraavat taulukko-muotoiset tasot (tasojen tarkemmat ominaisuudet kuvataan näissä ohjeissa myöhemmin):
 
 | Taso | Muoto | Selite |
 |----------|----------|----------|

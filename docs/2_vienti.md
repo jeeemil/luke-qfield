@@ -11,7 +11,7 @@ tai valikosta **Lisäosat-> QFieldSync-> Pakkaa QFieldiä varten**. Oletuskansio
 Voit katsoa esimerkkiä alla olevasta videosta. 
 
 
-![Pakkaaminen QFieldiin](img/qfield_pakkaaminen.gif)
+![Pakkaaminen QFieldiin](img/package_for_qfield_2.gif)
 
 Jos et ole vielä kytkennyt omaa puhelinta tietokoneeseen esimerkiksi usb-kaapelilla, niin tee se. Käy sitten kopioimassa kaikki tiedostot (eli käytännössä em. kansio) jotka äsken loit lisäosan avulla ja siirrä ne puhelimeen sellaiseen sijaintiin, jonka  muistat. 
 
@@ -27,6 +27,6 @@ Tässä mainittu tapa siirtää tiedostot usb-kaapelilla ei suinkaan ole ainoa m
 
 ---
 ## Tiedostojen siirto
-Siirtäminen tapahtuu esimerkiksi raahaamalla valitut tiedostot, tai kopioimalla kuten alla. Suosittelemme että luot uuden kansion jokaiselle projektille, jotta tiedostopolut ovat selkeitä.
+Siirtäminen tapahtuu esimerkiksi raahaamalla edellä luotu tiedostokansio (videossa nimellä testiversio1), tai kopioimalla tiedostoina  kuten esimerkissä alla. Suosittelemme että luot uuden kansion jokaiselle projektille, jotta tiedostopolut ovat selkeitä.
 
 ![Tiedostojen siirto puhelimeen](img/tiedostojen_siirto.gif)
