@@ -3,7 +3,7 @@ Kun avaat QFieldin puhelimella niin oletusnäkymä näyttää suunnilleen tält�
 
 ![QFieldin avausnäkymä](img/qfield_openfile.png)
 
-Valitse "Avaa paikallinen tiedosto" ("Open local file") ja paina seuraavaksi käyttöliittymän oikean alareunan vihreää plus-ikonia ja navigoi laitteesi sijaintiin, jonne QGIS-lisäosalla tehdyn QField-paketin lisäsit. Klikkaa alareunasta "Käytä tätä kansiota". Tätä kautta annetaan QFieldille käyttöoikeus kyseiseen sijaintiin (Lisätietoa: [dokumentaatiosta](https://docs.qfield.org/get-started/storage/)). Valitse kansiosta projektitiedosto (qgs-loppuinen tiedosto), ja klikkaa siitä projekti auki. Jatkossa projektin pystyy avaamaan ilman näitä välivaiheita.
+Valitse "Avaa paikallinen tiedosto" ("Open local file") ja paina seuraavaksi käyttöliittymän oikean alareunan vihreää plus-ikonia, valitse **"Tuo projekti hakemistosta"** ja navigoi laitteesi sijaintiin, jonne QGIS-lisäosalla tehdyn QField-paketin lisäsit. Klikkaa alareunasta **"Käytä tätä kansiota"** ja **"Salli"**. Tätä kautta annetaan QFieldille käyttöoikeus kyseiseen sijaintiin (Lisätietoa: [dokumentaatiosta](https://docs.qfield.org/get-started/storage/)). Valitse kansiosta projektitiedosto, ja klikkaa siitä projekti auki. Jatkossa projektin pystyy avaamaan ilman näitä välivaiheita.
 
 
 ## Yleistä QFieldin käyttöliittymästä

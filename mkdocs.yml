@@ -1,7 +1,6 @@
 site_name: Metsäkoetietojärjestelmän QField PoC 
 copyright: 'Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a>'
-nav:
-  - Alku: index.md
+nav:  
   - Koti: 0_index.md
   - 1. Alkuvalmistelut: 1_alkuvalmistelut.md
   - 2. Projektin vienti QFieldiin: 2_vienti.md
