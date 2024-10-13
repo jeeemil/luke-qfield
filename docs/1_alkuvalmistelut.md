@@ -5,7 +5,7 @@
 
 Lataa GeoPackage-tiedosto: 
 
-- [QGIS-projekti (testiversio 1.0)](https://drive.google.com/file/d/1X60nPkYzK7NCFw8Bfq_cCwHwdfYa0UkG/view?usp=drive_link) 
+- [QGIS-projekti (testiversio 1.0)](https://drive.google.com/file/d/1AhPhCEMgjQIsPpOFmD4X_MawTv5-8__5/view?usp=drive_link) 
 
 ## Projektin avaaminen
 
