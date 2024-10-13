@@ -39,7 +39,12 @@ Liittyvän kohteen pystyy koemetsikölle lisäämään myöhemminkin myös kysei
 
 ### Koeala-taso
 
+- Digitointi ja tietojen syöttö kuten Koemetsikkö-tasolle. Myös koealalla on relaatio liittyvien pisteiden/viivojen/alueiden tasoihin ja 
+koealalle voidaan luoda alikohde näihin tasoihin
+
 ### Liittyvät kohteet
+
+- Digitointi ja tietojen syöttö kuten Koemetsikkö-tasolle
 
 ### Kokeet ja toimenpiteet
 
@@ -47,10 +52,25 @@ Liittyvän kohteen pystyy koemetsikölle lisäämään myöhemminkin myös kysei
 
 ### Tietojen haku tasoilta
 
+QFieldillä voi hakea kohteita monin tavoin, esimerkiksi tasojen attribuuttien avulla tai koordinaattien avulla (WGS84 sekä projektin koordinaattijärjestelmä (tässä tapauksessa EPSG:3067b) ovat mahdollisia käyttää). Klikkaamalla suurennuslasia QFieldin oikeassa ylänurkassa saa hakuvaihtoehdot esiin:
 
+[<img src="img/hakuvaihtoehdot.png" width="300" />](img/hakuvaihtoehdot.png)
+
+Esimerkiksi aktiiviselta tasolta kohteita voi hakea syntaksilla `a @<attribuuttinimi> <attribuutin arvo>`: 
+
+[<img src="img/haku_tasoilta.png" width="300" />](img/haku_tasoilta.png)
 
 ### Massatoiminnot
 
+QFieldillä on joitakin ominaisuuksia massamaisiin editointeihin, kuten prosessointialgoritmien ajo usealle kohteelle (esim. orthogonalize, rotate, smooth). 
+
+Myös monen kohteen attribuuttien muokkaus:
+
+- Klikkaa päävalikossa tasoa > avaa kohdelista > oikeasta yläkulmasta 3 pistettä > vaihda kohdevalinta > ruksi muokattavat kohteet > muokkaa.
+
+- Tarkemmat ohjeet ja esimerkit tulossa.
 
 ### Karttateemat
+
+- Ei vielä implementoitu
 
