@@ -5,7 +5,7 @@
 
 Lataa GeoPackage-tiedosto: 
 
-- [QGIS-projekti]() 
+- [QGIS-projekti](https://drive.google.com/file/d/1X60nPkYzK7NCFw8Bfq_cCwHwdfYa0UkG/view?usp=drive_link) 
 - [QField-PoC (testiversio 1.0)]()
 
 ## Projektin avaaminen
