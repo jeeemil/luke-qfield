@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Metsäkoetietojärjestelmän QField PoC</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Tervetuloa LUKE:n Mets\u00e4KTJ:n QField-kokeilun ohjesivulle.";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Metsäkoetietojärjestelmän QField PoC
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="0_index.html">Koti</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="1_alkuvalmistelut.html">1. Alkuvalmistelut</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="2_vienti.html">2. Projektin vienti QFieldiin</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="3_qfield.html">3. QFieldin peruskäyttö</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="4_mktj.html">4. Mktj-PoC:n käyttö</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="5_qfieldista_qgissiin.html">5. QFieldistä QGISiin</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Metsäkoetietojärjestelmän QField PoC</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Tervetuloa LUKE:n MetsäKTJ:n QField-kokeilun ohjesivulle.</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="tervetuloa-luken-metsaktjn-qfield-kokeilun-ohjesivulle">Tervetuloa LUKE:n MetsäKTJ:n QField-kokeilun ohjesivulle.</h1>
+<p>Täältä löytyy ohjeita, miten QField-sovelluksella voitaisiin käyttää Luonnonvarakeskuksen Metsäkoetietojärjestelmän kanssa. </p>
+<p>Koko työnkulku pääpiirteissään:</p>
+<ol>
+<li>Avaa QGIS-projekti tietokoneella QGIS-ohjelmistolla.</li>
+<li>Lisää itselle tärkeät taustakartat ja muut karttatasot</li>
+<li>Paketoi QGIS-projekti QField-yhteensopivaksi QFieldSync-lisäosalla</li>
+<li>Siirrä paketoidun projektin sisältävä tiedostokansio mobiililaitteelle</li>
+<li>Avaa projekti mobiililaitteessa QField-sovelluksella</li>
+<li>Kerää tietoja</li>
+<li>Siirrä tiedostot takaisin tietokoneelle ja synkronoi takaisin QGIS-projektiin QFieldSync-lisäosalla</li>
+<li>Tee tarvittavat lisäykset ja muutokset QGISissä</li>
+<li>Vie ulos QGISistä haluamaasi muotoon (esimerkiksi .xlsx, .csv, .gpkg)</li>
+</ol>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2024-10-13 21:22:35.043264+00:00
+-->

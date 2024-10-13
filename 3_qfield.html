@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>3. QFieldin peruskäyttö - Metsäkoetietojärjestelmän QField PoC</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "3. QFieldin perusk\u00e4ytt\u00f6";
+        var mkdocs_page_input_path = "3_qfield.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Metsäkoetietojärjestelmän QField PoC
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="0_index.html">Koti</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="1_alkuvalmistelut.html">1. Alkuvalmistelut</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="2_vienti.html">2. Projektin vienti QFieldiin</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">3. QFieldin peruskäyttö</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#yleista-qfieldin-kayttoliittymasta">Yleistä QFieldin käyttöliittymästä</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#asetukset">Asetukset</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="4_mktj.html">4. Mktj-PoC:n käyttö</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="5_qfieldista_qgissiin.html">5. QFieldistä QGISiin</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Metsäkoetietojärjestelmän QField PoC</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">3. QFieldin peruskäyttö</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="qfieldin-peruskaytto">QFieldin peruskäyttö</h1>
+<p>Kun avaat QFieldin puhelimella niin oletusnäkymä näyttää suunnilleen tältä:</p>
+<p><img alt="QFieldin avausnäkymä" src="img/qfield_openfile.png" /></p>
+<p>Valitse "Avaa paikallinen tiedosto" ("Open local file") ja paina seuraavaksi käyttöliittymän oikean alareunan vihreää plus-ikonia, valitse <strong>"Tuo projekti hakemistosta"</strong> ja navigoi laitteesi sijaintiin, jonne QGIS-lisäosalla tehdyn QField-paketin lisäsit. Klikkaa alareunasta <strong>"Käytä tätä kansiota"</strong> ja <strong>"Salli"</strong>. Tätä kautta annetaan QFieldille käyttöoikeus kyseiseen sijaintiin (Lisätietoa: <a href="https://docs.qfield.org/get-started/storage/">dokumentaatiosta</a>). Valitse kansiosta projektitiedosto, ja klikkaa siitä projekti auki. Jatkossa projektin pystyy avaamaan ilman näitä välivaiheita.</p>
+<h2 id="yleista-qfieldin-kayttoliittymasta">Yleistä QFieldin käyttöliittymästä</h2>
+<p>QFieldin käyttöliittymä on tilannekohtainen. Oheisessa havainnekuvassa nähdään QField selailu-tilassa, jolloin ainoat näkyvät komponentit ovat: </p>
+<ul>
+<li>
+<p><strong>Päävalikko</strong>: mm. kartta-tasot ja -teemat, asetukset sekä selailu-/muokkaus-tilan valinta.</p>
+</li>
+<li>
+<p><strong>Haku-toiminto</strong>: voi hakea kohteita projektin vektoritasoista sekä sijainteja esimerkiksi koordinaattien tai osoitteen perusteella  (osoitehaku toimii vain osoitteille Suomen alueelta, perustuvat Digiroadiin).</p>
+</li>
+<li>
+<p><strong>Zoomaus-painikkeet</strong>: lähennys ja loitonnus. Kartalla zoomaus toimii myös kahden sormen eleitä käyttämällä kuten mobiililaitteiden karttasovellukset yleensäkin. </p>
+</li>
+<li>
+<p><strong>Paikannus</strong>: kun aktivoit paikannuksen, karttapohja seuraa sijaintiasi ja keskittää siihen.</p>
+</li>
+<li>
+<p><strong>Mittakaava-jana</strong></p>
+</li>
+</ul>
+<p><img alt="&lt;img src=&quot;img/image2.png&quot; width=&quot;500&quot; /&gt;" src="img/image2.png" /></p>
+<h2 id="asetukset">Asetukset</h2>
+<p>Klikataan sovelluksen vasemmasta yläreunasta <strong>Valikko</strong> auki, aukeavasta valikosta <strong>Asetukset (rattaan kuva) &gt; Asetukset (tai Settings)</strong>.</p>
+<p><strong>Yleistä (General)</strong>-välilehdellä voit konfiguroida QFieldin käyttöliittymää sopivaksi. Tässä muutamia ehdotuksia käyttöönotettaviksi:</p>
+<ul>
+<li>
+<p>Lähes alas asti vierittämällä löytyy asetus Kieli (Language), josta voit vaihtaa kielen esim. suomeksi (vaatii sovelluksen uudelleen käynnistämisen). </p>
+</li>
+<li>
+<p>Laajin attribuuttilomake: kätevä käytössä, kun paljon täytettäviä attribuuttitietoja ja pieninäyttöinen laite.</p>
+</li>
+<li>
+<p>Näytä digitointitiedot: koordinaatti- ym. tiedot digitointia suorittaessa.</p>
+</li>
+</ul>
+<p>Pyyhkäisemällä asetus-valikkoa vasemmalle päädytään <strong>Paikannus</strong>-välilehdelle, joka on hyödyllinen varsinkin ulkoisia paikannuslaitteita
+käytettäessä. Täältä voi laittaa esimerkiksi tarkkuusindikaattorin aktiiviseksi, jolloin digitoitaessa näkee suoraan paikannuksen luotettavuuden.</p>
+<p><strong>Käyttäjänimen lisäys</strong>: siirry asetus-valikossa tämän jälkeen oikeanpuolimmaiseen <strong>Muuttujat</strong>-välilehteen. Sieltä näkee sekä tietyt QGISin versio- ym. muuttujat että mobiililaitteen käyttöliittymän muuttujat. Täällä voi myös määritellä omia muuttujia, ja lisätään nyt käyttäjänimi, jotta muokkaustiedot tulevat automaattisesti talteen digitoitaessa QFieldilla:</p>
+<ul>
+<li>Klikkaa alareunan <strong>Lisää uusi muuttuja</strong>, ja anna muuttujalle nimeksi <strong>username</strong> sekä arvoksi oma nimesi ja/tai laitteesi nimi.</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="2_vienti.html" class="btn btn-neutral float-left" title="2. Projektin vienti QFieldiin"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="4_mktj.html" class="btn btn-neutral float-right" title="4. Mktj-PoC:n käyttö">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Tekijä: <a href="info@gispo.fi">Gispo Suomi Oy</a></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="2_vienti.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="4_mktj.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
