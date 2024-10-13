@@ -29,14 +29,25 @@ Klikataan takaisin karttaikkunaan ja digitoidaan koemetsikkö haluttuun sijainti
 
 [<img src="img/koemetsikko_digitointi.gif" width="300" />](img/koemetsikko_digitointi.gif)
 
+Pakollisia tietoja on ainoastaan koemetsikön voimassaolon alkupäivä; kun se on lisätty, attribuuttilomake muuttuu punaisesta (jolloin kohteen tallentaminen ei onnistu) vihreäksi, jolloin tietojen tallentaminen onnistuu ylhäältä ruksista. Tietoja voidaan täydentää myöhemmin QFieldissä (muokkaustilassa ja valitsemalla ko. kohde aktiiviseksi) tai QGISissa.
+
+Koemetsiköllä voi olla useita siihen liittyviä muiden tasojen kohteita: siihen voi liittyä monta koealaa, liittyviä kohteita (liittyvät pisteet, viivat ja alueet), toimenpidettä sekä koetta. Nämä hoidetaan Geopackagessa relaatioilla taulujen välillä (avain taulujen välillä on UUID-kenttä). Näitä kohteita voi lisätä suoraan luotavaan koemetsikköön sitä digitoitaessa. On mentävä attribuuttitaulun **Alikohteet"**-välilehdelle ja lisättävä haluttu liittyvä kohde plus-ikonista, jolloin kyseisen tason attribuuttilomake aukeaa:
+
+[<img src="img/lisaa_alikohde.png" width="300" />](img/lisaa_alikohde.png)
+
+Liittyvän kohteen pystyy koemetsikölle lisäämään myöhemminkin myös kyseistä alikohde-tasoa (esim. Koeala) suoraan muokkaamalla.
+
 ### Koeala-taso
 
 ### Liittyvät kohteet
 
 ### Kokeet ja toimenpiteet
 
+- Kokeet ja toimenpiteet eivät sisällä geometriaa. Tietojen lisääminen tasoille tapahtuu kuitenkin aivan analogisesti edellä kuvattujen geometria-tasojen kanssa. Kohteen lisäys -napista aukeaa kuitenkin nyt suoraan attribuuttilomake geometrian lisäys-työkalun sijaan.
 
 ### Tietojen haku tasoilta
+
+
 
 ### Massatoiminnot
 
